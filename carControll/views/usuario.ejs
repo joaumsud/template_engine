@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Usuário</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <h1>Usuário</h1>
+    <p>Bem-vindo! </p>
+    <hr>
+    <% 
+        let usuario = [
+            {nome: 'João Paulo', idade: 33, email: 'joaumsud@joaumsud.com'},
+            {nome: 'Jandercleysson', idade: 42, email: 'jandercleysson@jandercleysson.com'},
+            {nome: 'Jurema', idade: 18, email: 'jurema@jurema.com'}
+        ];
+    %>
+    <ul>
+        <% for (let usuarios of usuario) { %>
+        <li>Olá sou <%= usuarios.nome %>, tenho <%= usuarios.idade  %> anos de idade e meu e-mail é
+            <%= usuarios.email  %>!
+        </li>
+        <% } %>
+    </ul>
+
+
+</body>
+
+</html>
