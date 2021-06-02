@@ -9,8 +9,8 @@ header-nav {
 
 img {
     margin: 0 10px;
-    width: 30%;
-    height: 30%;
+    width: 40%;
+    height: 40%;
     display: inline-block;
     justify-content: left;
     
@@ -22,6 +22,6 @@ ul {
     justify-content: right;
 }
 a{
-    margin: 0 5px 0 0; 
+    margin: 10px 10px 0 0; 
     display: flex;
 }
