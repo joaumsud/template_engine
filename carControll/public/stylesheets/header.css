@@ -1,0 +1,27 @@
+body {
+    padding: 30px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+header-nav {
+    margin: 5px;
+}
+
+img {
+    margin: 0 10px;
+    width: 30%;
+    height: 30%;
+    display: inline-block;
+    justify-content: left;
+    
+}
+
+ul {
+    margin-left: 0;
+    display: inline-flex;
+    justify-content: right;
+}
+a{
+    margin: 0 5px 0 0; 
+    display: flex;
+}
